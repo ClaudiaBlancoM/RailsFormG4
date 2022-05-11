@@ -1,9 +1,8 @@
-<h1> El resultado de la suma es:
-<%= params[:x].to_i + params[:y].to_i %>
-</h1>
+<h1> Form 2.0 </h1>
 <form method="get" action="/pages/create">
-<input name="x">
-<input name="y">
-<input type="submit" value="Enviar">
+    email: <input name="email" type="email">
+    age: <input name="age" type="number">
+    message: <textarea name="message"> </textarea>
+    <input type="submit" value="Enviar">
 </form>
 
